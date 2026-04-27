@@ -1,6 +1,6 @@
 # 🚀 Excel Admin Automation Suite
 
-A collection of high-performance VBA utilities designed to eliminate repetitive office tasks, streamline HR operations, and automate file management directly from Microsoft Excel.
+A collection of high-performance VBA utilities designed to eliminate repetitive office tasks, streamline HR & Admin operations, and automate file management directly from Microsoft Excel.
 
 ## 🛠️ Tools Included
 
@@ -42,8 +42,9 @@ Transfer specific files from a source directory to a destination directory based
 1.  Open your Excel file and press `ALT + F11` to open the VBA Editor.
 2.  Go to `File > Import File...` and select the `.bas` files from the `/src` folder of this repo.
 3.  Ensure your spreadsheet layout matches the expected ranges (Paths in B2/B3, Data starting at Row 5/6).
-
-
+   * **Folder Automator:** Root path in `B2`, Data from Row 5.
+    * **File Renamer:** Folder path in `B2`, Data from Row 5.
+    * **File Mover:** Source in `B2`, Destination in `B3`, Data from Row 6.
 
 ## 📋 Technical Requirements
 * **OS:** Windows (VBA FileSystemObject is Windows-based).
